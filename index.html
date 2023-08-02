@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Fail Station | Home</title>
+<link rel="stylesheet" href="style.css">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="https://use.typekit.net/mrw6mvq.css">
+
+<link rel="icon" href="images/Fail_Station_Web_Icon.png" type="image/png" sizes="16x16">
+<meta http-equiv="Cache-control" content="no-cache">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body oncontextmenu="return false">
+
+<!-- OVERLAY -->
+  <div class="overlay">
+    <img class="loading_logo" src="images/pump_start.png">
+    <p class="loading_text">LOADING …</p>
+  </div>
+  <script>
+    if ((document.referrer.indexOf('fail-station.com') > 0 || document.referrer.indexOf('localhost') > 0)) {
+      $(".overlay").css({display: "none"});
+    }
+    $(window).on("load", function () {
+      $(".overlay").fadeOut(1500);
+    });
+  </script>
+<!-- END OVERLAY -->
+
+	<div id="wrapper">
+
+		<div id="header">
+			<a href="mitmachen.html">
+			<img src="images/Button_Web_Mitmachen_02.png" alt="participation button" style="float:left; width:150px;">
+			</a>
+
+			<a href="information.html">
+			<img src="images/Button_Web_Info_02.png" alt="information button" style="float:right; width:150px;">
+			</a>
+		</div>
+
+		<div id="content" style="border-bottom: 1px solid lightgray;">
+			<div class="pump_column">
+		    	<a href="index.html"> <div class="title">Fail Station</div> </a>
+				<div class="pump_column_image">
+					<img src="images/failstation_pump.gif">
+				</div>
+				<div class="genre">
+					<p>
+						<span style="font-weight:400;">Wir alle haben unsere Erfahrungen und kennen ihn gut: den Misserfolg.</span><br>
+					Auf Basis eingesandter Erlebnisse werden hier «Failures» im beruflichen Alltag illustriert, neuinterpretiert und veröffentlicht. <br> Mit nur einem<span style="font-weight:400;">«Klick» auf das Bild</span> verschaffst du dir darüber hinaus Zugang zu visuellen <span style="font-weight:400;">«Reframings»</span>.
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="content" style="padding-top: 3em;">	
+			<div class="column">
+				<img class="Sirv image-main" src="images/nr.01_failure_clarafruehwirth.jpg" src-alt="images/nr.01_reframing_clarafruehwirth.jpg" onclick="changeImage(this)">
+			</div>
+
+			<div class="column">
+				<img class="Sirv image-main" src="images/nr.02_failure_clarafruehwirth.jpg" src-alt="images/nr.02_reframing_clarafruehwirth.jpg" onclick="changeImage(this)">
+			</div>
+		</div>
+
+		<div id="content">	
+			<div class="column">
+				<img class="Sirv image-main" src="images/nr.03_failure_clarafruehwirth.jpg" src-alt="images/nr.03_reframing_clarafruehwirth.jpg" onclick="changeImage(this)">
+			</div>
+			
+			<div class="column">
+				<img class="Sirv image-main" src="images/nr.04_failure_clarafruehwirth.jpg" src-alt="images/nr.04_reframing_clarafruehwirth.jpg" onclick="changeImage(this)">
+			</div>
+		</div>
+
+		<div id="content">	
+			<div class="column">
+				<img class="Sirv image-main" src="images/nr.05_failure_clarafruehwirth.jpg" src-alt="images/nr.05_reframing_clarafruehwirth.jpg" onclick="changeImage(this)">
+			</div>
+			
+			<div class="column">
+				<img class="Sirv image-main" src="images/nr.06_failure_clarafruehwirth.jpg" src-alt="images/nr.06_reframing_clarafruehwirth.jpg" onclick="changeImage(this)">
+			</div>
+		</div>
+
+		<div id="content">	
+			<div class="column">
+				<img class="Sirv image-main" src="images/nr.07_failure_clarafruehwirth.jpg" src-alt="images/nr.07_reframing_clarafruehwirth.jpg" onclick="changeImage(this)">
+			</div>
+
+			<div class="column">
+				<img class="Sirv image-main" src="images/nr.08_failure_clarafruehwirth.jpg" src-alt="images/nr.08_reframing_clarafruehwirth.jpg" onclick="changeImage(this)">
+			</div>
+		</div>
+
+		<div id="content">	
+			<div class="column">
+				<img class="Sirv image-main" src="images/nr.09_failure_clarafruehwirth.jpg" src-alt="images/nr.09_reframing_clarafruehwirth.jpg" onclick="changeImage(this)">
+			</div>
+
+			<div class="column">
+				<img class="Sirv image-main" src="images/nr.10_failure_clarafruehwirth.jpg" src-alt="images/nr.10_reframing_clarafruehwirth.jpg" onclick="changeImage(this)">
+			</div>
+		</div>
+
+		<div id="content" style="padding-bottom: 3em;">	
+			<div class="column">
+				<img class="Sirv image-main" src="images/nr.11_failure_clarafruehwirth.jpg" src-alt="images/nr.11_reframing_clarafruehwirth.jpg" onclick="changeImage(this)">
+			</div>
+
+			<div class="column">
+				<img class="Sirv image-main" src="images/nr.12_failure_clarafruehwirth.jpg" src-alt="images/nr.12_reframing_clarafruehwirth.jpg" onclick="changeImage(this)">
+			</div>
+		</div>
+
+	</div>
+	<script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+	<script src="main.js"></script> 
+</body>
